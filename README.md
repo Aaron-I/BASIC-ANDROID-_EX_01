@@ -32,7 +32,7 @@ Step 7: Save and run the application.
 
 ### MainActivity.java:
 ```
-package com.example.sample1;
+package com.example.andriodlifecycle;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-
             return insets;
         });
     }
@@ -95,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
         Toast toast= Toast.makeText(getApplicationContext(),"onDestroy Executed",Toast.LENGTH_LONG);
         toast.show();
     }
-
 }
 ```
 ### Activity_Main.XML:
@@ -104,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -111,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome to Andriod LifeCycle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,6 +120,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT:
+
+![Experiment1 image2](https://github.com/Aaron-I/BASIC-ANDROID-_EX_01/assets/139863034/f2667374-86ae-4335-804f-4f0a7b267754)
+
 
 
 ## RESULT:
