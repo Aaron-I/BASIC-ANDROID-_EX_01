@@ -121,7 +121,8 @@ public class MainActivity extends AppCompatActivity {
 
 ## OUTPUT:
 
-![Experiment1 image2](https://github.com/Aaron-I/BASIC-ANDROID-_EX_01/assets/139863034/f2667374-86ae-4335-804f-4f0a7b267754)
+
+![Experiment 1](https://github.com/Aaron-I/BASIC-ANDROID-_EX_01/assets/139863034/4ac0cb5e-8e82-4da2-8bb5-43c3f6697d20)
 
 
 
